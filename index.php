@@ -9,6 +9,7 @@
     <body class="container">
         <?php
             include 'conn.php';
+            // comment
             if(isset($_POST['submit'])){
                 $unmae = $_POST['uname'];
                 $email = $_POST['email'];
